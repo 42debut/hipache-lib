@@ -1,0 +1,23 @@
+{
+  "name": "hipache-lib",
+  "version": "1.0.0",
+  "description": "A library to configure hipache (via redis).",
+  "repository": "http://github.com/42debut/hipache-lib",
+  "author": "Nicolas Porter <nick@42debut.com> (http://nicolasporter.ca)",
+  "license": "MIT",
+  "dependencies": {
+    "coffee-script": "~1.6.3",
+    "redis": "~0.8.5",
+    "lodash": "~2.1.0",
+    "q": "~0.9.7"
+  },
+  "devDependencies": {
+    "mocha": "~1.13.0",
+    "mocha-as-promised": "~1.4.0",
+    "chai": "~1.8.0",
+    "chai-as-promised": "~4.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./tests/* -R spec --no-colors --compilers coffee:coffee-script"
+  }
+}
