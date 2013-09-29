@@ -57,8 +57,8 @@ Update a specific route.
 
 | argument   | type              | required | description
 | ---------- | ----------------- | -------- | -----------------------------------------------------
-| host       | String or Integer | **true** | The host/url to match an incoming request.
-| backends   | String or Array   | false    | The backends to redirect the incoming request. Defaults to `[]`.
+| host       | String or Integer | **true** | The host/url to update.
+| backends   | String or Array   | false    | The new list of backends. Defaults to `[]`.
 | create     | Boolean           | false    | Create the route if it doesn't exist. Defaults to `false`.
 
 
@@ -70,7 +70,7 @@ Delete a specific route.
 
 | argument    | type              | required | description
 | ----------- | ----------------- | -------- | -----------------------------------------------------
-| host        | String or Integer | **true** | The host/url to match an incoming request.
+| host        | String or Integer | **true** | The host/url to delete.
 
 
 ## hasRoute(host)
@@ -81,7 +81,7 @@ Check if a route exists.
 
 | argument    | type              | required | description
 | ----------- | ----------------- | -------- | -----------------------------------------------------
-| host        | String or Integer | **true** | The host/url to match an incoming request.
+| host        | String or Integer | **true** | The host/url to check.
 
 
 # Testing
