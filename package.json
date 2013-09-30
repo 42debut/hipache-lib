@@ -5,6 +5,7 @@
   "repository": "http://github.com/42debut/hipache-lib",
   "author": "Nicolas Porter <nick@42debut.com> (http://nicolasporter.ca)",
   "license": "MIT",
+  "main": "./lib/hipache.coffee",
   "dependencies": {
     "coffee-script": "~1.6.3",
     "redis": "~0.8.5",
