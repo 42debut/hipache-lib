@@ -2,6 +2,8 @@
 
 A library to configure hipache (via redis).
 
+[![Build Status](https://api.travis-ci.org/42debut/hipache-lib.png)](https://travis-ci.org/42debut/hipache-lib)
+
 
 # API
 
