@@ -1,6 +1,7 @@
 
-_    = require 'lodash'
-Q    = require 'Q'
+_ = require 'lodash'
+Q = require 'q'
+
 
 class exports.Hipache
 

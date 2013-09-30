@@ -1,6 +1,6 @@
 
 redis = require 'redis'
-Q     = require 'Q'
+Q     = require 'q'
 
 require("mocha-as-promised")()
 
