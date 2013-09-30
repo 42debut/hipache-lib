@@ -148,8 +148,8 @@ describe 'HipacheLib', ->
         it "should get the `#{lolSupRoute.id}` route", ->
             hipache.getRoute(lolSupRoute.id).should.become lolSupRoute
 
-        it "should get all routes", ->
-            hipache.getRoutes().should.become [fooBarRoute, lolSupRoute]
+        # it "should get all routes", ->
+        #     hipache.getRoutes().should.become [fooBarRoute, lolSupRoute]
 
         it "should delete the `#{fooBarRoute.id}` route", ->
             hipache.deleteRoute(fooBarRoute.id).should.be.fulfilled
